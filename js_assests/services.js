@@ -4,17 +4,17 @@ var products = [
     {
         name: "T-shirt",
         price: 100,
-        image: "_image/summerwear/jimmy-chang-Crwm9q2lHus-unsplash.jpg"
+        image: "images/summerwear/jimmy-chang-Crwm9q2lHus-unsplash.jpg"
     },
     {
         name: "Shorts",
         price: 150,
-        image: "_image/summerwear/pexels-eman-genatilan-3459781-20842698.jpg"
+        image: "images/summerwear/pexels-eman-genatilan-3459781-20842698.jpg"
     },
     {
         name: "Jeans",
         price: 200,
-        image: "_image/summerwear/pexels-daniel-duarte-270529097-15474040.jpg"
+        image: "images/summerwear/pexels-daniel-duarte-270529097-15474040.jpg"
     },
     
     {
