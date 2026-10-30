@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css_assests/mainfocus.css">
+      <link rel="stylesheet" href="css_assests/lightbox.min.css">
+    <title>Main Focus | Affordable Boys' Fashion</title>
+    <meta name="description" content="Discover affordable and stylish boys' clothing at Main Focus. Shop summer wear, winter jackets, formal outfits, shoes, sunglasses and hats.">
+   <meta name="keywords" content="boys clothing, boys fashion, affordable boys clothes, boys summer wear, boys winter jackets, boys formal wear, boys shoes, boys hats">
+    
+</head>
+<body class="services">
+    <img src="_image/Logo.png" width="20%" height="20%"><img src="_image/hats/kelly-sikkema-qPLAPVzPmE8-unsplash.jpg" width="80%" height="250" >
+   
+    <br></br>
+         <nav> 
+         <div align="right"> <b>
+            <a href="index.html">Home|  </a>
+            <a href="about.html">About|  </a>
+            <a href="services.html">Services|  </a>
+            <a href="contact.html">Contact|  </a>
+            <a href="enquiries.html">Enquiries|  </a>
+         </b>
+         </nav>
+         <div align="center">
+    <input type="text" id="product-search" placeholder="Search for a product...">
+    <button type="button" id="search-button">Search</button>
+    <button type="button" id="clear-search">Clear Search</button>
+</div>
+<br>
+         <h1 class="headfour" align="center"><b>Our Services</b></h1>
+         <p  align="center">At main focus we offer a wide range of services to meet your needs and to keep boys looking stylish and feeling confident.</p>
+         <br></br>
+         <h1 align="center">Summer Collection</h1>
+         <div id="summer-products"></div>
+         <br></br>
+         
+
+             <br></br>
+         <h1 align="center">Winter Collection</h1>
+         <div id="winter-products"></div>
+         <br></br>
+
+                <br></br>
+                <h1 align="center">Formal Collection</h1>
+                <div id="formal-products"></div>
+                <br></br>
+                  
+
+                        <br></br>
+                <h1 align="center">Footwear Collection</h1>
+                <div id="footwear-products"></div>
+                <br></br>
+               
+                      
+                        
+                         <h1 align="center">Sunglasses Collection</h1>
+                         <div id="sunglasses-products"></div>
+                <br></br>
+               
+                        
+                         <h1 align="center">Headwear Collection</h1>
+                         <div id="headwear-products"></div>
+                <br></br>
+              
+                        <hr></hr>
+                        <script src="js_assests/jquery-1.10.2.min.js"></script>
+                        <script src="js_assests/lightbox.min.js"></script>
+                        <script src="js_assests/services.js"></script>
+      <footer>
+        <!-- NAVIGATIONS -->
+        <ul align="left">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="enquiries.html">Enquiries</a></li>
+
+        </ul>
+          <!-- ONLINE PLATFORMS -->
+        <h4 align="right">Follow Us</h4>
+        <p class="online" align="right">Instagram : Main Focus</p>
+        <p class="online"align="right">Facebook : Main Focus</p>
+        <p class="online" align="right">X : Main Focus</p>
+        <p class="online" align="right">TickTock : Main Focus</p>
+        <p class="online" align="right">Pintrest : Main Focus</p>
+        <hr></hr>
+        <p  class="registered"align="left">Not leaving a boy child behind!! </p>         
+        <p class="registered" align="left">&copy; 2026 Main Focus. All rights reserved</p>
+        <p class="registered" align="left">Main Focus Pty(Ltd)</p>
+        </footer>
+        <button id="backToTop">Back to Top ↑</button>
+        <script>
+          
+    // Get the Back to Top button
+    var backToTopButton = document.getElementById("backToTop");
+
+    // Hide the button when the page first loads
+    backToTopButton.style.display = "none";
+
+    // Check how far the visitor has scrolled
+    window.onscroll = function() {
+        if (window.scrollY > 200) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    };
+
+    // Scroll smoothly to the top when clicked
+    backToTopButton.onclick = function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+</script>
+
+</body>
+</html>

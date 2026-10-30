@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css_assests/mainfocus.css">
+    <title>Contact Us | Main Focus Boys' Clothing </title>
+     <meta name="description" content="Get in touch with Main Focus for any inquiries or assistance. We are here to help you with your boys' clothing needs.">
+    <meta name="keywords" content="contact main focus, boys clothing store, boys fashion, affordable boys clothes">
+</head>
+<body class="contact">
+    <img src="_image/Logo.png" width="20%" height="20%"><img src="_image/hats/kelly-sikkema-qPLAPVzPmE8-unsplash.jpg" width="80%" height="250" >
+    <br></br>
+      <!-- NAVIGATIONS -->
+         <nav> 
+         <div align="right"> <b>
+            <a href="index.html">Home|  </a>
+            <a href="about.html">About|  </a>
+            <a href="services.html">Services|  </a>
+            <a href="contact.html">Contact|  </a>
+            <a href="enquiries.html">Enquiries|  </a>
+         </b>
+             </div>
+               </nav>
+               <br>
+             <h1 class="break" align="center"><strong><u>Contact Us</u></strong></h1>
+             <p align="center">We are right here for you, there are a few options for getting in touch with us below.</p>
+             <h3 align="center"> Email </h3>
+             <p align="center">email: mainfocus@gmail.com</p>
+             <h3 align="center" > Call </h3>
+             <p align="center" >cell: +27 844 312 214</p>
+             <p align="center">(N.B calls will only be taken at business hours)</p>
+             <h3 align="center"> Business Hours</h3>
+             <p align="center"> Monday - Friday :   08:00 - 16:00</p>
+             <p align="center"> Saturday :     09:00 - 14:00</p>
+             <p align="center"> Sunday :   Closed</p>
+             <p align="center"> Public Holidays :   Closed</p>
+</br>
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<h2>Find Us Here</h2>
+
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+    // Create the map and set its location
+    var map = L.map('map').setView([-25.8616, 28.2502], 15);
+
+    // Add the map images from OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Add a marker for Irene Village Mall
+    var marker = L.marker([-25.8616, 28.2502]).addTo(map);
+
+    // Display a message when the marker is clicked
+    marker.bindPopup('Main Focus - Irene Village Mall').openPopup();
+</script>
+</script>
+             <hr></hr>
+      <footer>
+         <!-- NAVIGATIONS -->
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="enquiries.html">Enquiries</a></li>
+              <!-- ONLINE PLATFORMS -->
+
+        </ul>
+        <h4 align="right">Follow Us</h4>
+        <p class="online"align="right">Instagram : Main Focus</p>
+        <p class="online"align="right">Facebook : Main Focus</p>
+        <p class="online" align="right">X : Main Focus</p>
+        <p class="online" align="right">TickTock : Main Focus</p>
+        <p class="online" align="right">Pintrest : Main Focus</p>
+        <hr></hr>
+        <p class="registered">Not leaving a boy child behind!! </p>         
+        <p class="registered">&copy; 2026 Main Focus. All rights reserved</p>
+        <p class="registered">Main Focus Pty(Ltd)</p>
+        </footer>
+        <button id="backToTop">Back to Top ↑</button>
+        <script>
+          
+    // Get the Back to Top button
+    var backToTopButton = document.getElementById("backToTop");
+
+    // Hide the button when the page first loads
+    backToTopButton.style.display = "none";
+
+    // Check how far the visitor has scrolled
+    window.onscroll = function() {
+        if (window.scrollY > 200) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    };
+
+    // Scroll smoothly to the top when clicked
+    backToTopButton.onclick = function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+</script>
+
+</body>
+</html>
