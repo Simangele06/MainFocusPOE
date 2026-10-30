@@ -72,12 +72,12 @@ var formalProducts = [
     {
         name: "Formal Suit",
         price: 500,
-        image: "_image/formalwear/akash-gurle-HgjNPrHxbP0-unsplash.jpg"
+        image: "images/formalwear/akash-gurle-HgjNPrHxbP0-unsplash.jpg"
     },
     {
         name: "Formal Suit",
         price: 500,
-        image: "_image/formalwear/avik-chakraborty-KJo1JSOWvHE-unsplash.jpg"
+        image: "images/formalwear/avik-chakraborty-KJo1JSOWvHE-unsplash.jpg"
     },
     {
         name: "Formal Suit",
