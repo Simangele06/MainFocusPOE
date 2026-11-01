@@ -63,3 +63,10 @@ Outlined targeted areas for improvement based on those weaknesses, such as addin
 Updated the technical requirements to reflect the current build using both HTML and CSS.
 
 Integrated your exact, custom page-by-page color choices (#A48374 for home, #704C13 for about, #B19273 for services, #CC9A for contact, #DD3BC6 for inquiries, and RGB(154, 93, 93) for navigation) into the design and user experience section.
+
+## Referencing
+Woolworths
+https://www.woolworths.co.za
+JAM Clothing
+https://jamclothing.co.za
+
