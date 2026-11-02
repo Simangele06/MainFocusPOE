@@ -1,0 +1,309 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    margin: 0;
+    padding: 0;
+   
+}
+.body{
+    background-color: #A48374;
+}
+.about{
+    background-color: #704c13;
+}
+.services{
+    background-color: #B19273;
+}
+.contact{
+    background-color: #ccaa9a;
+}
+.enquiries{
+    background-color: #DDC3B6;
+}
+nav{
+    background-color: rgb(154, 93, 93);
+}
+nav div b a{ 
+    color: white;
+    text-decoration: pink;
+}
+
+nav div b{
+    color: aqua;
+   /* display: flex;*/
+    list-style-type: none;
+    gap: 20px;
+    /*padding: 1%;*/
+   }
+/* HOVER USED TO CHANGE THE APPEARANCE OF THE NAVIGATION LINKS WHEN MOUSE IS HOVERED OVER THEM */
+nav div b a:hover{
+    background-color: black;
+    color: purple;
+    padding: 10px;
+    border-radius: 35px;
+}
+footer{
+    background-color: burlywood;
+   /* margin:10px;*/
+}
+ul li a{
+    color: black;
+    text-decoration: rgb(252, 15, 55);
+  
+}
+ul li a:hover{
+    background-color:rgb(42, 165, 165);
+    color: black ;
+    padding: 10px;
+    border-radius: 35px;
+}
+ul li{
+    list-style-type: none;
+    padding: 1px;
+}
+.head{
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 0;
+    padding: 10px;
+    text-align: center;
+}
+.headtwo{
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    font-weight: 30;
+    padding: 10px;
+    text-align: center;
+}
+.headthree{
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.125rem;
+    font-weight: 30;
+    padding: 10px;
+    text-align: center;
+}
+.paragraphone{
+    color: #000;
+    font-family: 'roman', Times, serif;
+    font-size: 1.25rem;
+    font-weight: 30;
+    padding: 10px;
+   /* text-align: center;*/
+}
+.headfour{
+     color: #000;
+    font-family: 'roman', Times, serif;
+    font-size: 3.125rem;
+    font-weight: 30;
+    padding: 10px;
+}
+.break{
+      color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.125rem;
+    font-weight: 30;
+    padding: 10px;
+   } 
+ .online{
+    background-color: #f5cee9;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+h4{
+    background-color: #f5cee9;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.registered{
+    background-color: rgb(212, 173, 173);
+   /* text-align: center;*/
+    letter-spacing: 2px;
+    /*padding: 10px;*/
+}
+table td{
+    width: 33.33%;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+   
+}
+img{
+   max-width: 100%;
+   /* height: auto;*/
+   /* display: block;*/
+}
+
+/*ENQUIRIES*/
+form label input{
+    padding: 10px;
+}
+form input:focus{
+    border: 2px solid #000000;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+    table, tbody, tr {
+        width: 100%;
+        display: block;
+    }
+    table td {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+/* Navigation link animation */
+nav a {
+    position: relative;
+    text-decoration: none;
+}
+
+/* Create the underline */
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease;
+}
+
+/* Animate the underline when hovering */
+nav a:hover::after {
+    width: 100%;
+}
+/* Button hover animation */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+/* Back to Top button */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+
+
+
+
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    table, tbody, tr, td {
+        font-size: 2rem;
+        display: block;
+        width: 100% !important;
+    }
+}
+
+
+/* MOST ASKED QUESTIONS */
+
+.faq {
+    margin: 1rem;
+}
+
+.question {
+    background-color: #222222;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.answer {
+    padding: 1rem;
+    background-color: #f2f2f2;
+    margin-bottom: 1rem;
+}
+
+#openAll,
+#closeAll {
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
+    cursor: pointer;
+}
